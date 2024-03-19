@@ -1,8 +1,31 @@
 
 
 .y-fl {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color:rgba(245,245,245,255);
     height: 2.5rem
+    
+
+}
+
+.y-flicons {
+    max-height: 100%;
+    width: 30px;
+}
+
+#y-nike {
+    max-height: 100%;
+    width: 80px;
+    padding-left: 4rem;
+
+}
+
+a {
+    text-decoration: none;
 
 }
 
