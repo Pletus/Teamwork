@@ -73,14 +73,22 @@ a {
     height: 4rem;
 }
 
-.video-background {
-    position: absolute
-    top: 0;
-    right: 0;
-    bottom: 0;
+
+  
+
+.video-container {
+    width: auto;
+    height: 50vh;
+    object-fit: cover;
+    position: fixed;
     left: 0;
-    overflow: hidden;
+    right: 0;
+    top: 0;
+    bottom: 0;
     z-index: -1;
+  }
+
+
 *{
 
 margin:0;
@@ -198,26 +206,3 @@ h2{
 
 
 
-/* @keyframes slideImage {
-  0% {
-      left: 0;
-  }
-  100% {
-      left: -300px; /* Adjust according to width of image-container */
-  */
-
-/* image 
-
-{
-
-  
- 
-}  */
-
-/* div.image
-
-{
-    margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
